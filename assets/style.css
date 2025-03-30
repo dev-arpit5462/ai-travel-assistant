@@ -1,0 +1,95 @@
+/* Main app */
+.stApp {
+    background-color: #1a1a1a;  /* Dark background */
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #2d2d2d;  /* Dark grey sidebar */
+    color: #ffffff;
+}
+
+/* Cards */
+.st-c7 {
+    background-color: #333333;  /* Dark grey cards */
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Images */
+.stImage img {
+    border-radius: 8px;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+/* Add to existing CSS */
+.flight-card, .hotel-card {
+    background: #333333;  /* Dark grey background */
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.flight-card:hover, .hotel-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    background: #404040;  /* Slightly lighter on hover */
+}
+
+.airline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.price {
+    color: #2ecc71;  /* Brighter green for better visibility */
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.hotel-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.hotel-info {
+    padding: 0.5rem 0;
+    color: #ffffff;
+}
+
+.hotel-info h3 {
+    color: #ffffff;
+}
+
+.flight-details {
+    border-top: 1px solid #4a4a4a;  /* Darker border */
+    padding-top: 1rem;
+}
+
+/* Additional styles for better visibility */
+h1, h2, h3, h4, h5, h6, p {
+    color: #ffffff !important;
+}
+
+/* Make links more visible */
+a {
+    color: #3498db !important;
+}
+
+/* Ensure text inputs are visible */
+input, select, textarea {
+    background-color: #404040 !important;
+    color: #ffffff !important;
+    border: 1px solid #4a4a4a !important;
+}

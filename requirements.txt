@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+python-dotenv
+requests      # For API calls
+beautifulsoup4    # For web scraping (optional)
+pandas            # For data handling
+folium         # For maps (optional)
+pillow           # For image handling
+fpdf2           # For PDF generation
