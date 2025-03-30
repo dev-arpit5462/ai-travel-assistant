@@ -59,7 +59,7 @@ def get_hotels(location, check_in, check_out, adults, rooms):
         )
         full_data = response.json()
         # print(full_data)
-        simplified_hotels = full_data['results'][:3]
+        simplified_hotels = full_data['results'][:5]
         
         return {"hotels": simplified_hotels}
     except Exception as e:
