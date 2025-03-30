@@ -12,7 +12,7 @@
 
 ## Deployment
 This app is configured for Streamlit Cloud deployment. 
-
+https://ai-travel-assistant-v1.streamlit.app/
 ## 🔑 API Keys Required
 
 - Google Gemini API Key
