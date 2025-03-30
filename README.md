@@ -5,8 +5,7 @@
 2. Create a `.env` file with required API keys:
    ```
    GEMINI_API_KEY=your_gemini_api_key
-   FLIGHTS_API_KEY=your_flights_api_key
-   HOTELS_API_KEY=your_hotels_api_key
+   RAPIDAPI_KEY = your_rapid_api_key
    ```
 3. Install dependencies: `pip install -r requirements.txt`
 4. Run the app: `streamlit run app.py`
