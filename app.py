@@ -73,7 +73,7 @@ def display_hotel_card(hotel):
                 <h3>{name}</h3>
                 <p>📍 {location}</p>
                 <p>⭐ {review_score}/5</p>
-                <p class="price">₹{price:,.2f} per night</p>
+                <p class="price">₹{price:,.2f} for full Trip </p>
                 <p>🏨 {amenities}</p>
             </div>
         </div>
